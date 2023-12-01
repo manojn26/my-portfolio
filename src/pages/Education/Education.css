@@ -1,0 +1,65 @@
+.education {
+  background: rgba(99, 99, 99, 0.084);
+  padding: 1rem;
+  margin-left: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+}
+
+.course-name {
+  display: flex;
+  gap: 10px;
+  font-size: 1.1rem;
+}
+.course-name span {
+  margin-left: 3rem;
+  color: yellow;
+}
+.cgpa {
+  font-size: 1.3rem;
+  color: #b92bf5;
+}
+.cgpa,
+.college-name,
+.location {
+  margin-left: 2rem;
+}
+.location {
+  display: flex;
+}
+
+.relavant-coursework {
+  margin-left: 2rem;
+  font-size: 1.2rem;
+}
+.relavant-courses {
+  margin-top: -1rem;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .relavant-courses,
+  .relavant-coursework {
+    display: none;
+  }
+  .cgpa {
+    color: #b92bf5;
+    font-size: 1.5rem;
+  }
+  .course-name {
+    display: block;
+    height: 80px;
+    /* border: 2px solid red; */
+  }
+  .course-name span {
+    display: block;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  .college-name {
+    margin-top: -5px;
+  }
+}

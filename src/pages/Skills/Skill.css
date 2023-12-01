@@ -1,0 +1,62 @@
+.content {
+  margin-bottom: 3rem;
+}
+.skill-heading {
+  padding: 10px 0;
+}
+.skill-container {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 15px;
+  padding: 10px 20px;
+  margin-left: 1rem;
+}
+.skill-item {
+  background: rgba(255, 255, 255, 0.084);
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: fit-content;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border: 1.5px solid rgba(255, 255, 255, 0.386);
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+.skill-item p {
+  color: white;
+}
+.skill-item img {
+  object-fit: contain;
+}
+img {
+  width: 30px;
+  height: 30px;
+}
+details summary {
+  position: relative;
+  cursor: pointer;
+}
+details[open] summary::after {
+  content: "";
+  height: 1.5px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  background-color: rgba(211, 211, 211, 0.285);
+}
+summary::marker {
+  color: green;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .content {
+    margin-left: 0.8rem;
+  }
+  h1 {
+    margin-left: 0.8rem;
+  }
+}

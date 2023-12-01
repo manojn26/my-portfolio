@@ -1,0 +1,21 @@
+.about-section {
+  margin-bottom: 3rem;
+}
+.about-content {
+  margin-left: 1rem;
+  background: rgba(99, 99, 99, 0.084);
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .about-section {
+    margin-left: 0.8rem;
+  }
+  .about-content > p {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,66 @@
+.image-banner {
+  display: flex;
+  margin-bottom: 3rem;
+}
+.my-photo {
+  width: 13rem;
+  height: 13rem;
+}
+.name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+.my-name {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.job-title {
+  margin-left: 3.5rem;
+}
+.hire-button {
+  margin-top: 1rem;
+  transition: 0.5s;
+  transition-property: box-shadow;
+  background: #259f97;
+  box-shadow: 0 0 5px #259f97;
+  margin-left: 3rem;
+}
+.hire-button:hover {
+  box-shadow: 0 0 5px #66fcf1, 0 0 25px #66fcf1, 0 0 50px #66fcf1,
+    0 0 100px #66fcf1;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .image-banner {
+    width: 100%;
+    margin-left: 1rem;
+  }
+  .my-photo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  .name-container {
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+  .my-name {
+    font-size: 1.2rem;
+  }
+  .job-title {
+    margin-left: 1.3rem;
+  }
+  .hire-button {
+    width: 100px;
+    margin-top: 1rem;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    background: #259f97;
+    box-shadow: 0 0 5px #259f97;
+    margin-left: 4rem;
+  }
+}

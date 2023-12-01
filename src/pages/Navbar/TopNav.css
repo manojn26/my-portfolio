@@ -1,0 +1,80 @@
+.top-nav {
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  /* background-color: black;
+   */
+  background-color: var(--bg-primary);
+}
+
+.my-resume {
+  width: inherit;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  padding: 0.5rem;
+}
+
+button {
+  background-color: #0000ff;
+  outline: none;
+  border: none;
+  width: 10rem;
+  height: 3rem;
+  margin-right: 1rem;
+  /* padding: 1rem; */
+  border-radius: 0.8rem;
+  color: var(--text-highlight);
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.download {
+  margin-right: 10px;
+}
+a {
+  text-decoration: none;
+  color: var(--text-highligh);
+  font-size: 1rem;
+}
+.mac-book {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 10%;
+}
+.circle {
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 50%;
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: var(--btn-highlight);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .top-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .mac-book {
+    width: 30%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+
+} */

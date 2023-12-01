@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import "./Global.css";
+import AboutMe from "./pages/AboutMe/AboutMe";
+import Acheivements from "./pages/Achievements/Achievements";
+import CurrentLearning from "./pages/CurrenltLearning/CurrentLearning";
+import Education from "./pages/Education/Education";
+import TopNav from "./pages/Navbar/TopNav";
+import ProfileBanner from "./pages/ProfileBanner/ProfileBanner";
+import Projects from "./pages/Projects/Projects";
+import SideBar from "./pages/SideBar/SideBar";
+import Skill from "./pages/Skills/Skill";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <section className='navigation-bar'>
+        <TopNav />
+      </section>
+      <section className='content-box'>
+        <div className='side-bar'>
+          <SideBar />
+        </div>
+        <div className='main-content'>
+          <ProfileBanner />
+          <AboutMe />
+          <Skill />
+          <Education />
+          <Projects />
+          <Acheivements />
+          <CurrentLearning />
+        </div>
+      </section>
+    </>
   );
 }
 
