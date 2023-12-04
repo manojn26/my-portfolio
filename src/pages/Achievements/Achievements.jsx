@@ -11,7 +11,7 @@ export default function Acheivements() {
 
                 <div className='achievement-container'>
                     <div className='achievement-image'>
-                        <img className='image' src='https://hacktoberfest-swag.com/assets/hacktoberfest-logo.png' alt='error' />
+                        <img className='image' src='https://static.wikia.nocookie.net/logopedia/images/7/7f/Hacktoberfest_icon_2022.svg/' alt='error' />
                     </div>
                     <div className='achievement-content'>
                         <p className='achievement-heading'>Hacktober Fest 2023 </p>
