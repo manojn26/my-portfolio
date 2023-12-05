@@ -12,7 +12,7 @@ export default function TopNav() {
                     <div className='green circle'></div>
                 </div>
                 <div className='my-resume'>
-                    <a href="https://drive.google.com/file/d/1aHmmsnvXrPrcoYf__-QVMGMY0_Hykv4E/view?usp=sharing" rel="noreferrer" target="_blank">
+                    <a href="https://drive.google.com/file/d/10YOZfRGVxiS45PFG8eKwXSfKPQvjsoFT/view?usp=sharing" rel="noreferrer" target="_blank">
 
                         <button> <CloudDownloadIcon className='download' /> Resume</button>
                     </a>
